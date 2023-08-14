@@ -2,13 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/movie_theatre">
 
     <TextView
         android:id="@+id/tvId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tv_id"/>
+        android:text="@string/tv_id"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:id="@+id/etId"
@@ -16,13 +18,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:hint="@string/et_id"/>
+        android:hint="@string/et_id"
+        android:textColorHint="#FFFFFF"/>
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tv_title"/>
+        android:text="@string/tv_title"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:id="@+id/etTitle"
@@ -30,13 +34,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:hint="@string/et_title"/>
+        android:hint="@string/et_title"
+        android:textColorHint="#FFFFFF"/>
 
     <TextView
         android:id="@+id/tvGenre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tv_genre"/>
+        android:text="@string/tv_genre"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:id="@+id/etGenre"
@@ -44,13 +50,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:hint="@string/et_genre"/>
+        android:hint="@string/et_genre"
+        android:textColorHint="#FFFFFF"/>
 
     <TextView
         android:id="@+id/tvYear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tv_year"/>
+        android:text="@string/tv_year"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:id="@+id/etYear"
@@ -58,18 +66,21 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:hint="@string/et_year"/>
+        android:hint="@string/et_year"
+        android:textColorHint="#FFFFFF"/>
 
     <TextView
         android:id="@+id/tvRating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tv_rating"/>
+        android:text="@string/tv_rating"
+        android:textColor="#FFFFFF"/>
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -101,5 +112,6 @@
         android:id="@+id/tvSuccess"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tv_success"/>
+        android:text="@string/tv_success"
+        android:textColor="#FFFFFF"/>
 </LinearLayout>
