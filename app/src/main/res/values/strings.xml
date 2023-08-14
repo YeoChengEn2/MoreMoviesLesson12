@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">More Movies Lesson 12</string>
+    <string name="tv_id">Movie ID</string>
+    <string name="tv_title">Movie Title</string>
+    <string name="tv_genre">Genre</string>
+    <string name="tv_year">Year</string>
+    <string name="tv_rating">Rating</string>
+    <string name="et_id">Enter movie ID here</string>
+    <string name="et_title">Enter movie title here</string>
+    <string name="et_genre">Enter genre here</string>
+    <string name="et_year">Enter year of release here</string>
+    <string name="btn_insert">INSERT</string>
+    <string name="btn_list">SHOW LIST</string>
+    <string name="btn_all">SHOW ALL PG-13 MOVIES</string>
+    <string name="btn_update">UPDATE</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="tv_success">Deletion successful?</string>
+</resources>
